@@ -1,2 +1,10 @@
-# HTML-CSS
-Repositório dedicado aos meus estudos de HTML e CSS, contendo exercícios, projetos e práticas voltadas ao desenvolvimento de interfaces web.
+🎨 Repositório destinado aos meus estudos de HTML e CSS.
+
+Aqui você encontrará:
+• Exercícios
+• Projetos práticos
+• Layouts responsivos
+• Componentes de interface
+• Anotações e experimentos
+
+Objetivo: desenvolver interfaces modernas, organizadas, responsivas e com boas práticas de desenvolvimento web.
