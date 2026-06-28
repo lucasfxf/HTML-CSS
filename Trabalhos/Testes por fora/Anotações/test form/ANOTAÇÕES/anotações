@@ -1,0 +1,244 @@
+
+TITULOS:
+Títulos maiores
+Cada título HTML tem um tamanho padrão. No entanto, você pode especificar o tamanho de qualquer título com o styleatributo , usando a font-sizepropriedade CSS:
+
+Exemplo
+<h1 style="font-size:60px;">Heading 1</h1>
+width= largura
+height= altura
+
+Paragrafos:
+<pre> = para poemas
+<hr> = traço
+
+
+Resumo do Capítulo
+Use o style atributo para estilizar elementos HTML
+Usar background-color para cor de fundo
+Usar color para cores de texto
+Usar font-family para fontes de texto
+Usar font-size para tamanhos de texto
+Usar text-align para alinhamento de texto
+left= esquerda
+right= direita
+
+
+ESTILOS:
+O atributo de estilo HTML
+A definição do estilo de um elemento HTML pode ser feita com o styleatributo.
+
+O styleatributo HTML tem a seguinte sintaxe:
+
+<tagname style="property:value;">
+A propriedade é uma propriedade CSS. O valor é um valor CSS.
+
+Exemplo
+Defina a cor de fundo para dois elementos diferentes:
+
+<body>
+
+<h1 style="background-color:powderblue;">This is a heading</h1>
+<p style="background-color:tomato;">This is a paragraph.</p>
+
+</body>
+
+Cor do texto
+A colorpropriedade CSS define a cor do texto para um elemento HTML:
+
+Exemplo
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+Fontes
+A propriedade CSS font-familydefine a fonte a ser usada para um elemento HTML:
+
+Exemplo
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+Tamanho do texto
+A font-sizepropriedade CSS define o tamanho do texto para um elemento HTML:
+
+Exemplo
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+Alinhamento de texto
+A propriedade CSS text-aligndefine o alinhamento horizontal do texto para um elemento HTML:
+
+Exemplo
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+Resumo do Capítulo
+Use o styleatributo para estilizar elementos HTML
+Usar background-colorpara cor de fundo
+Usar colorpara cores de texto
+Usar font-familypara fontes de texto
+Usar font-sizepara tamanhos de texto
+Usar text-alignpara alinhamento de texto
+
+
+
+Elementos de formatação HTML
+Os elementos de formatação foram projetados para exibir tipos especiais de texto:
+
+<b>- Texto em negrito
+<strong>- Texto importante
+<i>- Texto em itálico
+<em>- Texto enfatizado
+<mark>- Texto marcado
+<small>- Texto menor
+<del>- Texto deletado
+<ins>- Texto inserido
+<sub>- Texto subscrito
+<sup>- Texto sobrescrito
+
+Tag	        Description
+<b>	        Defines bold text
+<em>	    Defines emphasized text 
+<i>	        Defines a part of text in an alternate voice or mood
+<small>	    Defines smaller text
+<strong>	Defines important text
+<sub>	    Defines subscripted text
+<sup>	    Defines superscripted text
+<ins>	    Defines inserted text
+<del>	    Defines deleted text
+<mark>	    Defines marked/highlighted text
+
+
+Links HTML - O atributo target
+Por padrão, a página vinculada será exibida na janela atual do navegador. Para alterar isso, você precisa especificar outro destino para o link.
+
+O targetatributo especifica onde abrir o documento vinculado.
+
+O targetatributo pode ter um dos seguintes valores:
+
+_self- Padrão. Abre o documento na mesma janela/guia em que foi clicado
+_blank- Abre o documento em uma nova janela ou aba
+_parent- Abre o documento no quadro pai
+_top- Abre o documento no corpo inteiro da janela
+Exemplo
+
+Resumo do Capítulo
+Use o <a>elemento para definir um link
+Use o href atributo para definir o endereço do link
+Use o target atributo para definir onde abrir o documento vinculado
+Use o <img>elemento (dentro <a>) para usar uma imagem como um link
+Use o mailto:esquema dentro do href atributo para criar um link que abra o programa de e-mail do usuário
+
+
+IMAGENS:
+Resumo do Capítulo
+Use o elemento HTML <img>para definir uma imagem
+Use o atributo HTML src para definir a URL da imagem
+Use o altatributo HTML para definir um texto alternativo para uma imagem, caso ela não possa ser exibida
+Use o HTML widthe height os atributos ou o CSS widthe height as propriedades para definir o tamanho da imagem
+Use a propriedade CSS float para deixar a imagem flutuar para a esquerda ou para a direita
+Observação: carregar imagens grandes leva tempo e pode deixar sua página lenta. Use imagens com cuidado.
+
+
+TABELAS:
+🧩 Tags de Tabela HTML — Resumo
+Tag	Descrição em Português
+<table>	Define uma tabela
+<th>	Define uma célula de cabeçalho na tabela
+<tr>	Define uma linha na tabela
+<td>	Define uma célula (coluna) na tabela
+<caption>	Define uma legenda (título) para a tabela
+<colgroup>	Especifica um grupo de uma ou mais colunas para formatação
+<col>	Define propriedades para cada coluna dentro de <colgroup>
+<thead>	Agrupa o conteúdo do cabeçalho da tabela
+<tbody>	Agrupa o conteúdo do corpo da tabela
+<tfoot>	Agrupa o conteúdo do rodapé da tabela
+
+
+
+
+DIVISÃO:
+🔹 Tag HTML: <div>
+Tag	Descrição em Português
+<div>	Define uma divisão ou seção genérica em um documento HTML. É usada para agrupar elementos e aplicar estilos (CSS) ou scripts (JavaScript).
+
+📌 Detalhes importantes sobre <div>:
+Não tem significado semântico (é genérica).
+
+Muito usada para criar layouts e containers de conteúdo.
+
+Pode conter qualquer outro elemento HTML: parágrafos, imagens, listas, formulários, etc.
+
+É essencial no uso de CSS para posicionamento, cores, tamanhos, etc.
+
+🧠 Exemplo simples:
+html
+Copiar
+Editar
+<div>
+  <h2>Sobre mim</h2>
+  <p>Olá! Sou estudante de HTML.</p>
+</div>
+
+
+CLASSES:
+O atributo de classe
+O classatributo é frequentemente usado para apontar para um nome de classe em uma folha de estilo. Também pode ser usado por JavaScript para acessar e manipular elementos com o nome de classe específico.
+
+No exemplo a seguir, temos três <div>elementos com um classatributo com o valor "cidade". Todos os três <div> elementos serão estilizados igualmente de acordo com a .city definição de estilo na seção principal:
+
+Exemplo
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div class="city">
+  <h2>London</h2>
+  <p>London is the capital of England.</p>
+</div>
+
+<div class="city">
+  <h2>Paris</h2>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div class="city">
+  <h2>Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+</body>
+</html>
+
+Resumo do Capítulo
+O classatributo HTML especifica um ou mais nomes de classe para um elemento
+As classes são usadas por CSS e JavaScript para selecionar e acessar elementos específicos
+O classatributo pode ser usado em qualquer elemento HTML
+O nome da classe diferencia maiúsculas de minúsculas
+Diferentes elementos HTML podem apontar para o mesmo nome de classe
+JavaScript pode acessar elementos com um nome de classe específico com o getElementsByClassName() método
+
+
+
+
+Os elementos HTML <form>
+O elemento HTML <form>pode conter um ou mais dos seguintes elementos de formulário:
+
+<input>
+<label>
+<select>
+<textarea>
+<button>
+<fieldset>
+<legend>
+<datalist>
+<output>
+<option>
+<optgroup>
