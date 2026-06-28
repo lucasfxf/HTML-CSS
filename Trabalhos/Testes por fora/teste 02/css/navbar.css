@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: white;
+}
+
+/* título */
+.ifzada {
+  color: blue;
+  padding: 10px;
+  font-size: 36px;
+  font-family: Arial, sans-serif;
+  margin: 10px 50px 200px 50px;
+}
+
+/* menu horizontal */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+/* tabela (se tiver) */
+table {
+  border-radius: 5px;
+  background-color: lightblue;
+  color: black;
+  border-color: red;
+}
+
+/* rodapé */
+footer {
+  background-color: lightblue;
+  color: black;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-links {
+  list-style: none;
+  font-family: Arial;
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.footer-links li a {
+  color: red;
+  text-decoration: none;
+}

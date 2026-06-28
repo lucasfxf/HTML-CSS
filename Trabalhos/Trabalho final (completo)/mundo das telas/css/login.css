@@ -1,0 +1,150 @@
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: 
+  linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+  url('../html/fundao.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* login */
+.senha-container {
+  position: relative;
+}
+
+#toggleSenha {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 1.1rem;
+}
+
+input:focus {
+  outline: 2px solid #E50914;
+  transition: box-shadow 0.3s ease;
+}
+
+a {
+  color: #1e90ff;
+  align-items: center;
+  text-decoration: none;
+  transition: color 0.3s;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #E50914;
+}
+
+.form-cont {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+  animation: aparecer 1s ease forwards;
+}
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.form-cont h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  opacity: 0;
+  transition: opacity 1.5s ease;
+}
+
+.form-cont label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+.form-cont input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2a2a2a;
+  color: white;
+  font-size: 0.95rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.buttons button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #E50914;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.buttons button:hover {
+  background-color: #b0070f;
+  transform: scale(1.05);
+}
+
+.buttons .btn-voltar {
+  background-color: #555;
+  color: white;
+}
+
+.buttons .btn-voltar:hover {
+  background-color: #777;
+}
+
+#voltarTopo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #E50914;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 10px black;
+}
+
+#mensagemBoasVindas {
+  opacity: 0;
+  position: fixed;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #E50914;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px black;
+  transition: opacity 1s ease;
+  z-index: 1000;
+  font-weight: bold;
+}

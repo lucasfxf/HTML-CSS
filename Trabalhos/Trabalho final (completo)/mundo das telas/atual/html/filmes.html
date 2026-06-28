@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmes</title>
+  <link rel="stylesheet" href="../css/filmes.css">
+  <link rel="stylesheet" href="../css/navbar.css">
+  <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <h1 class="titulo"><span style="color: white;">🎬 Mundo</span>DasTelas</h1>
+
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+      <ul class="nav-menu">
+        <li><a href="Inicio.html">Início</a></li>
+        <li><a href="login.html">Login</a></li>
+        <li><a href="filmes.html">Filmes</a></li>
+        <li><a href="series.html">Séries</a></li>
+        <li><a href="lancamentos.html">Lançamentos</a></li>
+        <li><a href="favoritos.html">Favoritos</a></li>
+        <li><a href="crud.html">Gerenciar Logins</a></li>
+        <li><a href="criadores.html">Criadores</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="Filmes">
+    <h2>Filmes</h2>
+    <p style="text-align:center; margin-bottom: 2rem; color:#bbb;">Veja os melhores filmes de cada gênero</p>
+
+    <!-- Comédia -->
+    <article>
+      <h3>Comédia</h3>
+      <ul>
+        <li>
+          <strong>Se Beber, Não Case</strong>
+          <p>Um grupo de amigos viaja para Las Vegas para uma despedida de solteiro, mas acorda sem lembrar de nada. Eles tentam juntar as peças.</p>
+          <div class="carousel" id="carousel-comedia">
+            <img src="https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/2a8a879a-f0eb-4df4-9206-d1d641589486/9f50953ed7ae17b629c808283d2c87d5e4594f6a.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom" alt="Se Beber, Não Case 1" />
+            <img src="https://cinepop.com.br/wp-content/uploads/2024/08/the-hangover-4.jpg" alt="Se Beber, Não Case 2" />
+            <img src="https://cosmonerd.com.br/wp-content/uploads/2019/06/Filmes-sobre-Cassino-01-Se-Beber-N%C3%A3o-Case-2009-jpg.webp" alt="Se Beber, Não Case 3" />
+          </div>
+          <button class="btn-trailer" data-trailer="https://www.youtube.com/embed/fH1buQ4LL5g?autoplay=1">Assistir Trailer</button>
+        </li>
+      </ul>
+    </article>
+
+    <!-- Terror -->
+    <article>
+      <h3>Terror</h3>
+      <ul>
+        <li>
+          <strong>O Exorcista</strong>
+          <p>Uma mãe pede ajuda a um padre para salvar sua filha possuída. Baseado em fatos reais, é um clássico do gênero.</p>
+          <div class="carousel" id="carousel-terror">
+            <img src="https://i.ytimg.com/vi/96RCGOaNuCM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAL_zFMYAO_o8BlGOnmmqRd20BIgw" alt="O Exorcista 1" />
+            <img src="https://aventurasnahistoria.com.br/media/uploads/o_exorcista_3.jpg" alt="O Exorcista 2" />
+            <img src="https://s2-techtudo.glbimg.com/X36j0bqp22zJ5i-QgT1zj2o7pm0=/0x0:1200x700/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2023/m/k/QtmdNLQcOefSJHpwJgjg/o-exorcista-1.jpg" alt="O Exorcista 3" />
+          </div>
+          <button class="btn-trailer" data-trailer="https://www.youtube.com/embed/4x6a6igB1AQ?autoplay=1">Assistir Trailer</button>
+        </li>
+      </ul>
+    </article>
+
+    <!-- Ação -->
+    <article>
+      <h3>Ação</h3>
+      <ul>
+        <li>
+          <strong>Vingadores: Ultimato</strong>
+          <p>Os Vingadores enfrentam Thanos para reverter os danos causados. Um marco no universo Marvel.</p>
+          <div class="carousel" id="carousel-acao">
+            <img src="https://trecobox.com.br/wp-content/uploads/2022/07/Vingadores-Ultimato-poderia-ter-tido-versao-de-4-horas-1280x720.jpg" alt="Vingadores Ultimato 1" />
+            <img src="https://s2.glbimg.com/2C0hMRuCY_7NfDPjby4_Bjmq8Nc=/e.glbimg.com/og/ed/f/original/2018/03/22/avengers-infinity-war-official-poster-2018-4o.jpg" alt="Vingadores Ultimato 2" />
+            <img src="https://rollingstone.com.br/media/uploads/vingadores_ultimato_1.jpg" alt="Vingadores Ultimato 3" />
+          </div>
+          <button class="btn-trailer" data-trailer="https://www.youtube.com/embed/spJoZReeIeQ?autoplay=1">Assistir Trailer</button>
+        </li>
+      </ul>
+    </article>
+
+    <!-- Romance -->
+    <article>
+      <h3>Romance</h3>
+      <ul>
+        <li>
+          <strong>A Culpa é das Estrelas</strong>
+          <p>Dois adolescentes com câncer se apaixonam em uma história intensa e emocionante.</p>
+          <div class="carousel" id="carousel-romance">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQou7GId8XF1O_LW1wu8QeF4geTZeGej5srWw&s" alt="A Culpa é das Estrelas 1" />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo73SQsGZTL0Bd5nyHtrxry4hZhHP7_rrptg&s" alt="A Culpa é das Estrelas 2" />
+            <img src="https://cdn.culturagenial.com/imagens/a-culpa-e-das-estrelas2-cke.jpg?class=article" alt="A Culpa é das Estrelas 3" />
+          </div>
+          <button class="btn-trailer" data-trailer="https://www.youtube.com/embed/lFOOZJ1UChg?autoplay=1">Assistir Trailer</button>
+        </li>
+      </ul>
+    </article>
+
+    <!-- Suspense -->
+    <article>
+      <h3>Suspense</h3>
+      <ul>
+        <li>
+          <strong>O Silêncio dos Inocentes</strong>
+          <p>Uma agente do FBI busca ajuda de um serial killer preso para capturar outro assassino.</p>
+          <div class="carousel" id="carousel-suspense">
+            <img src="https://images.justwatch.com/poster/98960712/s718/o-silencio-dos-inocentes.jpg" alt="O Silêncio dos Inocentes 1" />
+            <img src="https://ingresso-a.akamaihd.net/img/cinema/cartaz/10608-destaque.jpg" alt="O Silêncio dos Inocentes 2" />
+            <img src="https://tm.ibxk.com.br///2023/10/27/27123810598153.jpg?ims=1200x675" alt="O Silêncio dos Inocentes 3" />
+          </div>
+          <button class="btn-trailer" data-trailer="https://www.youtube.com/embed/W6Mm8Sbe__o?autoplay=1">Assistir Trailer</button>
+        </li>
+      </ul>
+    </article>
+  </section>
+
+  <!-- Modal Trailer -->
+  <div id="modal-trailer" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <iframe id="iframe-trailer" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+  </div>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="footer-content">
+      <p>© 2025 Mundo das Telas. Todos os direitos reservados.</p>
+      <p>Projeto desenvolvido por Lucas, Miguel e Hudson</p>
+      <ul class="footer-links">
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+        <li><a href="#">Privacidade</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script>
+document.addEventListener('DOMContentLoaded', () => {
+  const modal = document.getElementById('modal-trailer');
+  const iframe = document.getElementById('iframe-trailer');
+  const closeBtn = document.querySelector('.close');
+
+  // Carrossel simples para todas as carousels da página
+  document.querySelectorAll('.carousel').forEach(carousel => {
+    const slides = carousel.querySelectorAll('img');
+    let current = 0;
+    slides[current].classList.add('active');
+
+    setInterval(() => {
+      slides[current].classList.remove('active');
+      current = (current + 1) % slides.length;
+      slides[current].classList.add('active');
+    }, 3500);
+  });
+
+  // Abrir modal só ao clicar nos botões de trailer
+  document.querySelectorAll('.btn-trailer').forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();     // evita comportamento padrão do botão/link
+      e.stopPropagation();    // evita que o evento "vaze" para outros elementos
+      const trailerURL = btn.getAttribute('data-trailer');
+      iframe.src = trailerURL;
+      modal.style.display = 'flex';
+    });
+  });
+
+  // Fechar modal ao clicar no botão "X"
+  closeBtn.addEventListener('click', () => {
+    modal.style.display = 'none';
+    iframe.src = ''; // para o vídeo
+  });
+
+  // Fechar modal ao clicar fora da modal-content (no fundo escuro)
+  window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+      modal.style.display = 'none';
+      iframe.src = ''; // para o vídeo
+    }
+  });
+
+  // Impedir que clique nos links da navbar abra modal ou faça algo estranho
+  document.querySelectorAll('.nav-menu a').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.stopPropagation();
+    });
+  });
+});
+  </script>
+
+</body>
+</html>

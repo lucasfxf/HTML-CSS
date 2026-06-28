@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta charset="UTF-8">
+  <title>Cadastro - usuarios</title>
+  
+<link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <main>
+    <h1>Cadastro dos usuarios</h1>
+
+    <form action="cadastro_usuarios_BD.php" method="POST">
+      
+      <label for="campo2">Nome</label>
+      <input type="text" id="campo2" name="campo2" maxlength="20" required><br><br>
+
+      <label for="campo3">Email:</label>
+      <input type="text" id="campo3" name="campo3" maxlength="20"><br><br>
+
+      <label for="campo4">Senha:</label>
+      <input type="text" id="campo4" name="campo4" maxlength="20"><br><br>
+
+      <label for="campo5">Data do Cadastro:</label>
+      <input type="text" id="campo5" name="campo5" maxlength="20"><br><br>
+
+      <button type="submit">Cadastrar Registro</button>
+    </form>
+  </main>
+
+</body>
+</html>
